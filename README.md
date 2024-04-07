@@ -1,3 +1,26 @@
+# Pathfinding Visualizer
+Pathfinding Visualizer is a web application built using React, Express and Node.js that allows users to visualize various pathfinding algorithms in action.
+
+# Introduction
+Pathfinding Visualizer is a tool designed to help users understand the behavior and performance of various pathfinding algorithms. It provides an intuitive user interface for selecting algorithms, adjusting parameters, and visualizing the process in real-time.
+
+# Problem Statement
+Pathfinding algorithms are essential in applications such as routing in maps, network optimization, and robotics. However, understanding the inner workings of these algorithms can be challenging. Pathfinding Visualizer aims to bridge this gap by providing a visual representation of how these algorithms work.
+
+# Project Objectives
+Develop an interactive user interface for visualizing pathfinding algorithms.
+Support multiple pathfinding algorithms and allow users to compare their performance.
+
+# Features
+Selection of various pathfinding algorithms.
+Interactive grid manipulation.
+Visualization controls for speed and step-by-step execution.
+
+# Technologies Used
+React: Front-end framework for building user interfaces.
+Express: Web application framework for Node.js, used for building the backend API.
+Node.js: JavaScript runtime environment for executing server-side code.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
