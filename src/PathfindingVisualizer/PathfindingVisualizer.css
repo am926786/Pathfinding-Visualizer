@@ -1,0 +1,117 @@
+/* Pathfinding Visualizer styles */
+.grid-container {
+  margin: 5% auto;
+  text-align: center; /* Center content horizontally */
+}
+
+.grid {
+  display: inline-block;
+  white-space: pre;
+}
+
+/* Button styles */
+button {
+  margin: 10px; /* Add margin around buttons for spacing */
+  padding: 5px 5px; /* Increase padding for larger buttons */
+  font-size:15px; /* Increase font size for better visibility */
+  background-color: lightskyblue; /* Dark gray background color for buttons */
+  color: #ffffff; /* White text color for buttons */
+  border: none; /* Remove default button border */
+  border-radius: 6px; /* Add border radius for rounded corners */
+  cursor: pointer; /* Change cursor to pointer on hover for better UX */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+  font-family: 'Your Custom Font', 'Times New Roman', Times, serif;
+}
+
+/* Hover effect for buttons */
+button:hover {
+  background-color: #575757; /* Darker gray color on hover for buttons */
+}
+
+/* Navbar brand styles */
+.navbar-brand {
+  color: #ffffff; /* White color for the title link text */
+  font-size: 50px; /* Increase font size for better visibility */
+  font-weight: bold; /* Make the title bold */
+  text-decoration: none; /* Remove default underline */
+}
+
+/* Footer styles */
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #1a1a1a; /* Dark gray background color */
+  color: #ffffff; /* White text color */
+  text-align: center;
+  padding: 10px 0; /* Padding for content inside the footer */
+}
+
+/* Body styles */
+body {
+  background-color: #1a1a1a; /* Dark gray background color */
+}
+
+/* Information section styles */
+.info-section {
+  margin: 20px auto; /* Center the information section */
+  max-width: 500px; /* Limit the maximum width of the information section */
+  padding: 20px; /* Add padding around the content */
+  background-color: #f0f0f0; /* Light gray background color */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+}
+
+.info-section h2 {
+  color: #333; /* Dark text color for section title */
+  font-size: 20px; /* Larger font size for section title */
+  margin-bottom: 5px; /* Add margin below the section title */
+}
+
+.info-section p {
+  color: #666; /* Slightly darker text color for paragraphs */
+  font-size: 12px; /* Normal font size for paragraphs */
+  line-height: 1.5; /* Increase line height for better readability */
+  margin-bottom: 10px; /* Add margin below paragraphs */
+}
+
+/* Change color of algorithm information when displayed */
+.algorithm-info p {
+  color: #ff0000; /* Change to your desired color */
+}
+
+/* Custom font for body and h1 */
+body,
+h1 {
+  font-family: 'Your Custom Font', 'Times New Roman', Times, serif; /* Replace 'Your Custom Font' with the name of your custom font */
+}
+
+h1 {
+  font-size: 24px; /* Adjust the font size as needed */
+  color: #ffffff; /* Set the text color for the h1 element */
+  text-align: center; /* Center align the h1 element */
+  margin-top: 10px; /* Add margin on top for spacing */
+  margin-bottom: 10px; /* Add margin at the bottom for spacing */
+}
+/* Change color of algorithm information when displayed */
+.algorithm-info p {
+  color: #ff0000; /* Change to your desired color */
+}
+
+/* Add styles to display annotations side by side */
+
+
+
+.legend-text {
+  color: #fafafa; /* Change to your desired color */
+}
+/* Adjustments for legend items */
+.legend {
+  display: flex; /* Use flexbox layout */
+  justify-content: center; /* Center align the items horizontally */
+}
+
+.legend-item {
+  margin-right: 20px; /* Add some spacing between legend items */
+}

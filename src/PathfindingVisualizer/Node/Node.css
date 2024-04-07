@@ -1,0 +1,50 @@
+/* Node styles */
+.node {
+  width: 20px; /* Adjust the size of the node */
+  height: 20px; /* Adjust the size of the node */
+  display: inline-block;
+  margin: 1px; /* Add a small margin to separate nodes */
+  border-radius: 3px; /* Slightly rounded corners for nodes */
+  outline: 1px solid #eee; /* Light outline to distinguish nodes */
+}
+
+.node-start {
+  background-color: #4caf50; /* Green color for start node */
+}
+
+.node-finish {
+  background-color: #f44336; /* Red color for finish node */
+}
+
+.node-visited {
+  background-color: #2196f3; /* Blue color for visited nodes */
+}
+
+.node-wall {
+  background-color: black; /* Grey color for wall nodes */
+}
+
+.node-shortest-path {
+  background-color: #ffeb3b; /* Yellow color for shortest path nodes */
+}
+
+/* Adjust the following classes if you have specific styles for hovering or any other state */
+
+
+/* Additional styles */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensure the grid container has appropriate sizing to avoid layout issues */
+.grid-container {
+  max-width: 90vw;
+  margin: auto;
+  padding: 20px;
+  overflow: hidden; /* Prevent overflow issues */
+}
+
+/* Adjust this part based on your layout and preferences */
